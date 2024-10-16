@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://i.redd.it/n93k6oc2wab71.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    font-size: 28px;
+}
+
+.inicio {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(51, 67, 80, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habilidadesC,
+.habilidadeshtml,
+.habilidadesCSS {
+    background-color: rgba(51, 67, 80, 0.9);
+    border-radius: 15px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.habilidadesC ul,
+.habilidadeshtml ul,
+.habilidadesCSS ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.trabalho {
+    background-color: rgba(51, 67, 80, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
